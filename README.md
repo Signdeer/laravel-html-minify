@@ -1,10 +1,4 @@
 # Laravel HTML Minifier
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/dipeshsukhia/laravel-html-minify.svg?style=flat-square)](https://packagist.org/packages/dipeshsukhia/laravel-html-minify)
-[![Build Status](https://img.shields.io/travis/dipeshsukhia/laravel-html-minify/master.svg?style=flat-square)](https://travis-ci.org/dipeshsukhia/laravel-html-minify)
-[![Quality Score](https://img.shields.io/scrutinizer/g/dipeshsukhia/laravel-html-minify.svg?style=flat-square)](https://scrutinizer-ci.com/g/dipeshsukhia/laravel-html-minify)
-[![Total Downloads](https://img.shields.io/packagist/dt/dipeshsukhia/laravel-html-minify.svg?style=flat-square)](https://packagist.org/packages/dipeshsukhia/laravel-html-minify)
-
 This package helps to minify your project`s html (blade file) output.
 
 ### Requirements
