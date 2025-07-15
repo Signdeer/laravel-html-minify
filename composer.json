@@ -1,17 +1,17 @@
 {
-    "name": "dipeshsukhia/laravel-html-minify",
+    "name": "signdeer/laravel-html-minify",
     "description": "laravel minify html output",
     "keywords": [
         "dipeshsukhia",
         "laravel-html-minify"
     ],
-    "homepage": "https://github.com/dipeshsukhia/laravel-html-minify",
+    "homepage": "https://github.com/Signdeer/laravel-html-minify",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Dipesh Sukhia",
-            "email": "dipesh.sukhia@gmail.com",
+            "name": "Imran V. Mungai",
+            "email": "mungai@signdeer.com",
             "role": "Developer"
         }
     ],
