@@ -85,11 +85,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ### Security
 
-If you discover any security related issues, please email dipesh.sukhia@gmail.com instead of using the issue tracker.
+If you discover any security related issues, please mungai@signdeer.com instead of using the issue tracker.
 
 ## Credits
 
-- [Dipesh Sukhia](https://github.com/dipeshsukhia)
+- [Signdeer](https://github.com/Signdeer)
 - [All Contributors](../../contributors)
 
 ## License
