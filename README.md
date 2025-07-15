@@ -19,13 +19,8 @@ This package helps to minify your project`s html (blade file) output.
 You can install the package via composer:
 
 ```bash
-composer require dipeshsukhia/laravel-html-minify
+composer require signdeer/laravel-html-minify
 ```
-
-## Sponsor Laravel HTML Minifier on GitHub
-
-[Become a sponsor to Dipesh Sukhia
-](https://github.com/sponsors/dipeshsukhia).
 
 ## Setup
 ### Generate Config
