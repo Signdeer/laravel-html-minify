@@ -23,6 +23,7 @@ class LaravelMinifyHtml {
 			&& $this->isResponseObject( $response )
 			&& $this->isHtmlResponse( $response )
 			&& !$this->isRouteExclude( $request )
+			&& !$this->isUrlExclude($request)
 			&& ( $response->isSuccessful() || App::isProduction() )
 		) {
 			$response->setContent( LaravelHtmlMinifyFacade::htmlMinify( $response->getContent() ) );
@@ -53,5 +54,15 @@ class LaravelMinifyHtml {
 	 */
 	protected function isRouteExclude( $request ) : bool {
 		return $request->route() && in_array( $request->route()->getName(), Config::get( 'htmlminify.exclude_route', [] ) );
+	}
+
+	protected function isUrlExclude($request): bool {
+		$excludedUrls = Config::get('htmlminify.exclude_url', []);
+		foreach ($excludedUrls as $url) {
+			if (str_starts_with($request->path(), ltrim($url, '/'))) {
+				return true;
+			}
+		}
+		return false;
 	}
 }

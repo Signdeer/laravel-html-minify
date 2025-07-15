@@ -15,5 +15,13 @@ return [
 	// exclude route name for exclude from minify
 	'exclude_route' => [
 		// 'routeName'
-	]
+        'horizon.*',
+        'debugbar.*',
+    ],
+
+    'exclude_url' => [
+        'horizon',         // matches /horizon and all subpaths
+        'admin/log-viewer',
+        'telescope',
+    ],
 ];
